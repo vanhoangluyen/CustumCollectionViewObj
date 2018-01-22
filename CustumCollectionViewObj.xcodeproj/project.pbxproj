@@ -13,6 +13,7 @@
 		B8E83E572015CCCB00FAFF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E83E562015CCCB00FAFF19 /* Assets.xcassets */; };
 		B8E83E5A2015CCCB00FAFF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E83E582015CCCB00FAFF19 /* LaunchScreen.storyboard */; };
 		B8E83E5D2015CCCB00FAFF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E83E5C2015CCCB00FAFF19 /* main.m */; };
+		B8E83E652015D08300FAFF19 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E83E642015D08300FAFF19 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B8E83E592015CCCB00FAFF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8E83E5B2015CCCB00FAFF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8E83E5C2015CCCB00FAFF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8E83E632015D08300FAFF19 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		B8E83E642015D08300FAFF19 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				B8E83E502015CCCB00FAFF19 /* ViewController.h */,
 				B8E83E512015CCCB00FAFF19 /* ViewController.m */,
 				B8E83E532015CCCB00FAFF19 /* Main.storyboard */,
+				B8E83E632015D08300FAFF19 /* CollectionViewCell.h */,
+				B8E83E642015D08300FAFF19 /* CollectionViewCell.m */,
 				B8E83E562015CCCB00FAFF19 /* Assets.xcassets */,
 				B8E83E582015CCCB00FAFF19 /* LaunchScreen.storyboard */,
 				B8E83E5B2015CCCB00FAFF19 /* Info.plist */,
@@ -144,6 +149,7 @@
 			files = (
 				B8E83E522015CCCB00FAFF19 /* ViewController.m in Sources */,
 				B8E83E5D2015CCCB00FAFF19 /* main.m in Sources */,
+				B8E83E652015D08300FAFF19 /* CollectionViewCell.m in Sources */,
 				B8E83E4F2015CCCB00FAFF19 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

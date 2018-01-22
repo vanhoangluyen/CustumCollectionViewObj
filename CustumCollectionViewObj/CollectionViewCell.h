@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewCell.h
 //  CustumCollectionViewObj
 //
 //  Created by LuyenBG on 1/22/18.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
-
+@interface CollectionViewCell : UICollectionViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *myimageView;
 
 @end
-
